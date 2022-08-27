@@ -12,16 +12,34 @@
 	<link rel="icon" type="image/x-icon" href="images/favicon.ico">	
 </head>
 <body>
-	<section class="container">
-	  <h1>
-	    <span class="title">I can name</span>
-	    <span class="title">that tune in...</span>
-	    <span class="title">three notes.</span>
-	  </h1>
-	  
-	  <button class="btn">Start</button>
-	</section>
+	<div id="load-container">
+	    <h1>the Melody</h1>
+	    <button onclick="showHide();">Play</button>
+	</div>
+	
+	<div id="game-container">
+		<main class="wrapper">
+			<div class="score">Score:</div>
+	
+			<div class="music_staff">
+				<div class="line"></div>
+				<div class="space"></div>
+				<div class="line"></div>
+				<div class="space"></div>
+				<div class="line"></div>
+				<div class="space"></div>
+				<div class="line"></div>
+				<div class="space"></div>
+				<div class="line"></div>
+			</div>
+			
+			<section>
+				<a href="#" class="rules">Rules of Play</a>
+			</section>
+		</main>
+	</div>
 
 	<script src="app/app.js"></script>
+	<script src="app/game.js"></script>
 </body>
 </html>
