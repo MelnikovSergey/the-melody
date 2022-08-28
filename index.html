@@ -13,27 +13,36 @@
 </head>
 <body>
 	<div id="load-container">
-	    <h1>the Melody</h1>
-	    <button onclick="showHide();">Play</button>
+		<h1>the Melody</h1>
+		<button onclick="showHide();">Play</button>
 	</div>
 	
 	<div id="game-container">
 		<main class="wrapper">
-			<div class="score">Score:</div>
-	
-			<div class="music_staff">
-				<div class="line"></div>
-				<div class="space"></div>
-				<div class="line"></div>
-				<div class="space"></div>
-				<div class="line"></div>
-				<div class="space"></div>
-				<div class="line"></div>
-				<div class="space"></div>
-				<div class="line"></div>
-			</div>
+			<section class="staff_section">
+				<div class="score">Score:</div>
+		
+				<div class="music_staff">
+					<div class="line"></div>
+					<div class="space"></div>
+					<div class="line"></div>
+					<div class="space"></div>
+					<div class="line"></div>
+					<div class="space"></div>
+					<div class="line"></div>
+					<div class="space"></div>
+					<div class="line"></div>
+				</div>
+			</section>
 			
-			<section>
+			<section class="boxes_section">
+				<div class="box" draggable="true" id="box-1"><span>♩</span></div>
+				<div class="box" draggable="true" id="box-2"><span>♪</span></div>
+				<div class="box" draggable="true" id="box-3"><span>♫</span></div>
+				<div class="box" draggable="true" id="box-4"><span>♬</span></div>
+			</section>	
+
+			<section class="rules_section">
 				<a href="#" class="rules">Rules of Play</a>
 			</section>
 		</main>
