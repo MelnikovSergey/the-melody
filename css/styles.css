@@ -168,7 +168,6 @@ main {
 	pointer-events: none;
 }
 
-<<<<<<< HEAD
 .music_wrapper {
 	-webkit-transform: scale(0.56);
 	-ms-transform: scale(0.56);
@@ -383,19 +382,4 @@ main {
 	    font-size: 2rem;
 	    margin: 0.5rem;
 	}
-=======
-@media (max-width: 600px) {
-
-	  body { 
-		font-size: 14px; 
-	  }
-
-	  .box {
-		width: 4rem; 
-		height: 4rem; 
-		font-size: 2rem;
-		margin: 0.5rem;
-	  }
-
->>>>>>> 4302b33e9f01fcf30ac4c99e14189519112531a4
 }
